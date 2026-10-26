@@ -1,0 +1,494 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Суть Кофе — спешелти-кав’ярня у Дніпрі</title>
+  <meta name="description" content="Суть Кофе — маленька спешелти-кав’ярня на Старокозацькій у Дніпрі. Власна обсмажка, фільтр, еспресо та свіжа випічка щодня.">
+  <meta name="theme-color" content="#f4ede3">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="uk_UA">
+  <meta property="og:title" content="Суть Кофе — кава, у якої є суть">
+  <meta property="og:description" content="Спешелти-кав’ярня на Старокозацькій у Дніпрі. Власна обсмажка, фільтр, еспресо та свіжа випічка.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&amp;fit=crop&amp;w=1200&amp;q=80">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Перейти до вмісту</a>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Суть Кофе — на початок">
+        <svg class="brand-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <g transform="rotate(-35 32 32)">
+            <ellipse cx="32" cy="32" rx="13.5" ry="20.5" stroke="currentColor" stroke-width="2.6"/>
+            <path d="M32 12.5c6.5 8-6.5 31 0 39" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+          </g>
+        </svg>
+        <span class="brand-name">Суть<small>coffee · dnipro</small></span>
+      </a>
+
+      <nav class="nav" aria-label="Головна навігація">
+        <a href="#about">Про нас</a>
+        <a href="#menu">Меню</a>
+        <a href="#ritual">Ритуал</a>
+        <a href="#gallery">Атмосфера</a>
+        <a href="#visit">Контакти</a>
+      </nav>
+
+      <a class="header-cta" href="tel:+380671234567">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.5 3.5h2l1.4 4-1.8 1.3a13 13 0 0 0 6.1 6.1l1.3-1.8 4 1.4v2c0 1.4-1.1 2.5-2.5 2.5C10.4 19 5 13.6 4 6A2.5 2.5 0 0 1 6.5 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        <span>+380 67 123 45 67</span>
+      </a>
+
+      <button class="burger" type="button" aria-label="Відкрити меню" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true" inert>
+    <div class="container mobile-menu-inner">
+      <nav class="mobile-nav" aria-label="Мобільна навігація">
+        <a href="#about"><span>01</span>Про нас</a>
+        <a href="#menu"><span>02</span>Меню</a>
+        <a href="#ritual"><span>03</span>Ритуал</a>
+        <a href="#gallery"><span>04</span>Атмосфера</a>
+        <a href="#visit"><span>05</span>Контакти</a>
+      </nav>
+      <div class="mobile-foot">
+        <a class="mobile-phone" href="tel:+380671234567">+380 67 123 45 67</a>
+        <p>вул. Старокозацька, 24<br>Дніпро, 49000</p>
+        <div class="mobile-socials">
+          <a href="https://www.instagram.com/sut.coffee/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%BA%D0%BE%D0%B7%D0%B0%D1%86%D1%8C%D0%BA%D0%B0+24+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE" target="_blank" rel="noopener">Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span>est. 2019</span> спешелти-кав’ярня · Дніпро</p>
+          <h1 class="hero-title" id="hero-title">Кава,<br>у якої є <em>суть</em>.</h1>
+          <p class="hero-lead">Малими партіями обсмажуємо зерно, варимо без поспіху й віримо: найкраща кава — це просте, але чесне.</p>
+          <div class="hero-actions">
+            <a class="btn btn--primary" href="#menu">Дивитися меню
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="#visit">Як нас знайти</a>
+          </div>
+          <div class="hero-meta">
+            <div class="hero-meta-item"><span>08:00–21:00</span><small>пн–пт</small></div>
+            <div class="hero-meta-item"><span>Старокозацька, 24</span><small>Дніпро</small></div>
+            <div class="hero-meta-item"><span>Свіжа обсмажка</span><small>щовівторка</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-arch">
+            <div class="hero-photo"></div>
+          </div>
+          <div class="stamp" aria-hidden="true">
+            <svg class="stamp-ring" viewBox="0 0 140 140">
+              <defs><path id="stampPath" d="M70,70 m-50,0 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0"/></defs>
+              <text><textPath href="#stampPath" textLength="310" lengthAdjust="spacing">СВІЖА ОБСМАЖКА · СУТЬ КОФЕ · ДНІПРО · SINCE 2019 · </textPath></text>
+            </svg>
+            <svg class="stamp-bean" viewBox="0 0 64 64" fill="none">
+              <g transform="rotate(-35 32 32)">
+                <ellipse cx="32" cy="32" rx="9" ry="14" stroke="currentColor" stroke-width="2"/>
+                <path d="M32 18.5c4 5-4 22 0 27" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </g>
+            </svg>
+          </div>
+          <div class="hero-note">
+            <span class="note-label">Сьогодні у фільтрі</span>
+            <strong>Ethiopia<br>Guji</strong>
+            <span class="note-notes">персик · жасмин · дикий мед</span>
+            <span class="note-foot">світла обсмажка · V60</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <span>свіжа обсмажка</span><i>·</i><span>спешелти</span><i>·</i><span>фільтр</span><i>·</i><span>еспресо</span><i>·</i><span>своя випічка</span><i>·</i><em>кава, у якої є суть</em><i>·</i><span>Дніпро</span><i>·</i>
+        </div>
+        <div class="marquee-group">
+          <span>свіжа обсмажка</span><i>·</i><span>спешелти</span><i>·</i><span>фільтр</span><i>·</i><span>еспресо</span><i>·</i><span>своя випічка</span><i>·</i><em>кава, у якої є суть</em><i>·</i><span>Дніпро</span><i>·</i>
+        </div>
+      </div>
+    </div>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media" data-reveal>
+          <div class="about-main" role="img" aria-label="Затишна зала кав’ярні «Суть»"></div>
+          <div class="about-small" role="img" aria-label="Свіжообсмажені кавові зерна"></div>
+          <div class="about-badge"><span>since<br><b>2019</b></span></div>
+        </div>
+        <div class="about-copy" data-reveal style="--delay:.1s">
+          <p class="eyebrow"><span>01</span> Про нас</p>
+          <h2 class="section-title" id="about-title">Не просто кава.<br><em>Ритуал.</em></h2>
+          <p class="about-text">«Суть» почалася з маленької стійки на Старокозацькій, одного млина й великого бажання варити каву, яку хочеться пити повільно. Сьогодні ми самі обсмажуємо зерно, печемо круасани щоранку й знаємо в обличчя половину району.</p>
+          <p class="about-text">Ми не женемося за швидкістю. Нам важливо, щоб кожна чашка була однаково хорошою — і о восьмій ранку, і за п’ять хвилин до закриття.</p>
+          <p class="about-sign">Команда «Суть»</p>
+          <div class="stats">
+            <div class="stat"><b>2019</b><span>рік заснування</span></div>
+            <div class="stat"><b>12</b><span>сортів зерна</span></div>
+            <div class="stat"><b>4.9</b><span>рейтинг гостей</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu section" id="menu" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="section-head menu-head" data-reveal>
+          <div>
+            <p class="eyebrow"><span>02</span> Меню</p>
+            <h2 class="section-title" id="menu-title">Просте, але <em>чесне</em>.</h2>
+          </div>
+          <p class="section-note">Класика, яку хочеться повторювати. Мелемо перед приготуванням, зважуємо кожну порцію й міняємо зерно, коли воно перестає дивувати.</p>
+        </div>
+
+        <div class="menu-layout">
+          <div class="menu-main" data-reveal>
+            <div class="menu-tabs" role="tablist" aria-label="Категорії меню">
+              <button class="menu-tab is-active" type="button" role="tab" id="tab-espresso" aria-controls="panel-espresso" aria-selected="true" data-tab="espresso">Еспресо</button>
+              <button class="menu-tab" type="button" role="tab" id="tab-filter" aria-controls="panel-filter" aria-selected="false" tabindex="-1" data-tab="filter">Фільтр</button>
+              <button class="menu-tab" type="button" role="tab" id="tab-other" aria-controls="panel-other" aria-selected="false" tabindex="-1" data-tab="other">Не кава</button>
+            </div>
+
+            <div class="menu-panels">
+              <div class="menu-panel is-active" id="panel-espresso" role="tabpanel" aria-labelledby="tab-espresso">
+                <ul class="menu-list">
+                  <li class="menu-item"><div class="menu-item-head"><h3>Еспресо</h3><span class="price">45 ₴</span></div><p>Густий, шоколадний, з довгим солодким фінішем</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Допіо</h3><span class="price">60 ₴</span></div><p>Подвійна порція для тих, кому мало</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Капучино</h3><span class="price">65 ₴</span></div><p>Оксамитова піна, 180 мл</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Флет-вайт <span class="tag">хіт</span></h3><span class="price">70 ₴</span></div><p>Подвійне еспресо + мікропіна, 200 мл</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Лате</h3><span class="price">75 ₴</span></div><p>М’яке, молочне, на кожен день</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Раф ванільний</h3><span class="price">80 ₴</span></div><p>Вершки, ваніль і дрібка солі</p></li>
+                </ul>
+              </div>
+
+              <div class="menu-panel" id="panel-filter" role="tabpanel" aria-labelledby="tab-filter" hidden>
+                <ul class="menu-list">
+                  <li class="menu-item"><div class="menu-item-head"><h3>V60 <span class="tag">сьогодні</span></h3><span class="price">80 ₴</span></div><p>Ethiopia Guji · персик, жасмин, дикий мед</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Aeropress</h3><span class="price">75 ₴</span></div><p>Colombia Huila · збалансований, тілесний</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Chemex, 500 мл</h3><span class="price">140 ₴</span></div><p>На двох, з розмовою без поспіху</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Колд брю</h3><span class="price">85 ₴</span></div><p>18 годин холодної екстракції</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Еспресо-тонік</h3><span class="price">90 ₴</span></div><p>Літня класика з цедрою лайма</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Фільтр-сет <span class="tag">на двох</span></h3><span class="price">120 ₴</span></div><p>Три сорти для маленької дегустації</p></li>
+                </ul>
+              </div>
+
+              <div class="menu-panel" id="panel-other" role="tabpanel" aria-labelledby="tab-other" hidden>
+                <ul class="menu-list">
+                  <li class="menu-item"><div class="menu-item-head"><h3>Матча-лате</h3><span class="price">85 ₴</span></div><p>Церемоніальна матча, вівсяне молоко</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Какао</h3><span class="price">70 ₴</span></div><p>Бельгійський шоколад, без цукру</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Обліпиховий чай</h3><span class="price">65 ₴</span></div><p>Свіжа обліпиха, мед, імбир</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Круасан <span class="tag">свіже</span></h3><span class="price">65 ₴</span></div><p>Печемо щоранку, масло 82%</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Синнабон</h3><span class="price">75 ₴</span></div><p>З корицею та крем-сиром</p></li>
+                  <li class="menu-item"><div class="menu-item-head"><h3>Чізкейк</h3><span class="price">90 ₴</span></div><p>Нью-Йорк, ваніль, сезонні ягоди</p></li>
+                </ul>
+              </div>
+            </div>
+
+            <p class="menu-footnote">Ціни вказані в гривнях · Альтернативне молоко +10 ₴</p>
+          </div>
+
+          <aside class="menu-aside" data-reveal style="--delay:.12s">
+            <div class="menu-card">
+              <div class="menu-card-content">
+                <span class="note-label">Сьогодні у фільтрі</span>
+                <h3>Ethiopia<br><em>Guji</em></h3>
+                <p>персик · жасмин · дикий мед</p>
+                <span class="menu-card-foot">світла обсмажка · V60</span>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+    <section class="ritual section" id="ritual" aria-labelledby="ritual-title">
+      <div class="container">
+        <div class="section-head ritual-head" data-reveal>
+          <div>
+            <p class="eyebrow"><span>03</span> Ритуал</p>
+            <h2 class="section-title" id="ritual-title">Від зерна до <em>чашки</em>.</h2>
+          </div>
+          <p class="section-note">Чотири кроки, які ми не пропускаємо ніколи. Навіть коли за стійкою черга, а ви дуже поспішаєте.</p>
+        </div>
+
+        <div class="steps">
+          <article class="step" data-reveal>
+            <span class="step-num">01</span>
+            <h3>Обсмажка</h3>
+            <p>Щовівторка у нашій майстерні. Малі партії, світла обсмажка, трекінг кожного лоту.</p>
+          </article>
+          <article class="step" data-reveal style="--delay:.08s">
+            <span class="step-num">02</span>
+            <h3>Помел</h3>
+            <p>Мелемо безпосередньо перед приготуванням — під конкретний метод і конкретну чашку.</p>
+          </article>
+          <article class="step" data-reveal style="--delay:.16s">
+            <span class="step-num">03</span>
+            <h3>Вода</h3>
+            <p>Фільтрована, 93 °C для фільтру й 94 °C для еспресо. Так, ми міряємо температуру.</p>
+          </article>
+          <article class="step" data-reveal style="--delay:.24s">
+            <span class="step-num">04</span>
+            <h3>Чашка</h3>
+            <p>Зважуємо, дегустуємо, коригуємо. Тільки після цього — вам. Інакше навіщо все це.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-head gallery-head" data-reveal>
+          <div>
+            <p class="eyebrow"><span>04</span> Атмосфера</p>
+            <h2 class="section-title" id="gallery-title">Тут добре <em>бути</em>.</h2>
+          </div>
+          <a class="text-link" href="https://www.instagram.com/sut.coffee/" target="_blank" rel="noopener">
+            @sut.coffee у Instagram
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <div class="gallery-grid" data-reveal>
+          <button class="g-item g-a" type="button" data-full="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&amp;fit=crop&amp;w=1600&amp;q=85" data-caption="Великі вікна та м’яке світло">
+            <span class="g-photo g-photo-a" aria-hidden="true"></span>
+            <span class="g-caption">Великі вікна та м’яке світло</span>
+            <span class="g-open" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </button>
+
+          <button class="g-item g-b" type="button" data-full="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&amp;fit=crop&amp;w=1600&amp;q=85" data-caption="Ранкова кава">
+            <span class="g-photo g-photo-b" aria-hidden="true"></span>
+            <span class="g-caption">Ранкова кава</span>
+            <span class="g-open" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </button>
+
+          <button class="g-item g-c" type="button" data-full="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&amp;fit=crop&amp;w=1600&amp;q=85" data-caption="Зерно, яке ми обсмажуємо самі">
+            <span class="g-photo g-photo-c" aria-hidden="true"></span>
+            <span class="g-caption">Наше зерно</span>
+            <span class="g-open" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </button>
+
+          <div class="g-quote">
+            <span class="g-quote-mark" aria-hidden="true">“</span>
+            <p>Кава — це привід.<br>Люди — <em>причина</em>.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews section" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="reviews-top" data-reveal>
+          <div>
+            <p class="eyebrow"><span>05</span> Відгуки</p>
+            <h2 class="section-title" id="reviews-title">Про нас <em>кажуть</em>.</h2>
+          </div>
+          <div class="rating">
+            <b>4.9</b>
+            <div>
+              <div class="stars" aria-hidden="true">★★★★★</div>
+              <small>380 відгуків у Google</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review" data-reveal>
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p class="review-text">«Флет-вайт тут — причина, чому я більше не заходжу в мережеві кав’ярні. Ідеальний баланс, і жодного разу не було “не так”».</p>
+            <div class="review-author">
+              <span class="avatar avatar--a" aria-hidden="true">МК</span>
+              <div><strong>Марія К.</strong><span>гостя з 2021 року</span></div>
+            </div>
+          </article>
+
+          <article class="review" data-reveal style="--delay:.08s">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p class="review-text">«Щоранку о 8:05. Баристи вже знають: капучино на вівсяному, без цукру. І завжди питають, як справи. Це вже не просто кава».</p>
+            <div class="review-author">
+              <span class="avatar avatar--b" aria-hidden="true">ОД</span>
+              <div><strong>Олексій Д.</strong><span>працює поруч</span></div>
+            </div>
+          </article>
+
+          <article class="review" data-reveal style="--delay:.16s">
+            <div class="stars" aria-hidden="true">★★★★★</div>
+            <p class="review-text">«Приходжу не лише за кавою, а й за тишею біля вікна. Тут добре думати, писати й дивитися, як іде дощ по Старокозацькій».</p>
+            <div class="review-author">
+              <span class="avatar avatar--c" aria-hidden="true">АВ</span>
+              <div><strong>Анна В.</strong><span>дизайнерка, сусідка</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section class="visit" id="visit" aria-labelledby="visit-title">
+      <div class="container visit-grid">
+        <div class="visit-copy" data-reveal>
+          <p class="eyebrow"><span>06</span> Контакти</p>
+          <h2 class="section-title" id="visit-title">Заходьте на <em>каву</em>.</h2>
+          <p class="open-status" data-status>
+            <span class="status-dot" aria-hidden="true"></span>
+            <span data-status-text>Перевіряємо графік…</span>
+          </p>
+          <p class="visit-lead">Ми на Старокозацькій, за два кроки від центру. Є місця біля вікна, розетки та дуже свіжі круасани.</p>
+
+          <ul class="visit-list">
+            <li class="visit-item">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 21s7-5.6 7-11a7 7 0 1 0-14 0c0 5.4 7 11 7 11Z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.5"/></svg>
+              <div><span>Адреса</span><a href="https://www.google.com/maps/search/?api=1&amp;query=%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%BA%D0%BE%D0%B7%D0%B0%D1%86%D1%8C%D0%BA%D0%B0+24+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE" target="_blank" rel="noopener">вул. Старокозацька, 24, Дніпро</a></div>
+            </li>
+            <li class="visit-item">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.5"/><path d="M12 7.5V12l3 1.8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              <div><span>Графік</span><p>Пн–Пт 08:00–21:00 · Сб–Нд 09:00–22:00</p></div>
+            </li>
+            <li class="visit-item">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.5 3.5h2l1.4 4-1.8 1.3a13 13 0 0 0 6.1 6.1l1.3-1.8 4 1.4v2c0 1.4-1.1 2.5-2.5 2.5C10.4 19 5 13.6 4 6A2.5 2.5 0 0 1 6.5 3.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <div><span>Телефон</span><a href="tel:+380671234567">+380 67 123 45 67</a></div>
+            </li>
+            <li class="visit-item">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+              <div><span>Instagram</span><a href="https://www.instagram.com/sut.coffee/" target="_blank" rel="noopener">@sut.coffee</a></div>
+            </li>
+          </ul>
+
+          <div class="visit-actions">
+            <a class="btn btn--primary" href="https://www.google.com/maps/search/?api=1&amp;query=%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%BA%D0%BE%D0%B7%D0%B0%D1%86%D1%8C%D0%BA%D0%B0+24+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE" target="_blank" rel="noopener">Прокласти маршрут
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--light" href="tel:+380671234567">Забронювати столик</a>
+          </div>
+        </div>
+
+        <div class="map-card" data-reveal style="--delay:.12s">
+          <svg class="map-art" viewBox="0 0 600 560" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+            <rect width="600" height="560" fill="#211d18"/>
+            <g fill="#f4ede3" fill-opacity=".035">
+              <rect x="36" y="52" width="132" height="96" rx="5"/>
+              <rect x="196" y="30" width="96" height="118" rx="5"/>
+              <rect x="330" y="70" width="120" height="74" rx="5"/>
+              <rect x="486" y="36" width="90" height="110" rx="5"/>
+              <rect x="60" y="196" width="104" height="80" rx="5"/>
+              <rect x="210" y="188" width="128" height="70" rx="5"/>
+              <rect x="390" y="176" width="76" height="92" rx="5"/>
+              <rect x="500" y="194" width="76" height="74" rx="5"/>
+              <rect x="28" y="328" width="112" height="66" rx="5"/>
+              <rect x="190" y="332" width="96" height="58" rx="5"/>
+              <rect x="472" y="318" width="104" height="74" rx="5"/>
+              <rect x="88" y="456" width="140" height="76" rx="5"/>
+              <rect x="286" y="462" width="110" height="70" rx="5"/>
+            </g>
+            <path d="M-30 486C90 430 190 486 292 444c92-38 196 4 338-44" fill="none" stroke="#2c3a33" stroke-width="52" stroke-linecap="round"/>
+            <path d="M-30 486C90 430 190 486 292 444c92-38 196 4 338-44" fill="none" stroke="#42574a" stroke-width="1.5" stroke-opacity=".6"/>
+            <g stroke="#f4ede3" stroke-opacity=".2" stroke-width="2.4">
+              <path d="M-20 182 620 118"/>
+              <path d="M-20 358 620 300"/>
+              <path d="M112 -20 44 580"/>
+              <path d="M396 -20 470 580"/>
+              <path d="M538 -20 576 580"/>
+            </g>
+            <g stroke="#f4ede3" stroke-opacity=".09" stroke-width="1.1">
+              <path d="M-20 96 620 54"/><path d="M-20 256 620 204"/><path d="M-20 432 620 382"/><path d="M-20 514 620 468"/>
+              <path d="M230 -20 190 580"/><path d="M302 -20 328 580"/><path d="M-20 40 620 -10"/>
+            </g>
+            <text x="452" y="128" fill="#f4ede3" fill-opacity=".38" font-family="Manrope, sans-serif" font-size="9" letter-spacing="2.4" transform="rotate(-6 452 128)">СТАРОКОЗАЦЬКА</text>
+            <text x="120" y="338" fill="#f4ede3" fill-opacity=".28" font-family="Manrope, sans-serif" font-size="8" letter-spacing="2" transform="rotate(-6 120 338)">ПРОРІЗНА</text>
+            <circle class="map-pulse" cx="318" cy="292" r="48" fill="#a8491f" fill-opacity=".22"/>
+            <circle cx="318" cy="292" r="18" fill="#a8491f" fill-opacity=".24"/>
+            <circle cx="318" cy="292" r="6.5" fill="#a8491f"/>
+            <text x="318" y="338" fill="#f4ede3" font-family="Manrope, sans-serif" font-size="9.5" font-weight="600" letter-spacing="3" text-anchor="middle">СУТЬ</text>
+          </svg>
+          <div class="map-chip">
+            <b>Старокозацька, 24</b>
+            <span>Дніпро · 49000</span>
+          </div>
+          <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%BA%D0%BE%D0%B7%D0%B0%D1%86%D1%8C%D0%BA%D0%B0+24+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE" target="_blank" rel="noopener" aria-label="Відкрити в Google Maps">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="#top" aria-label="Суть Кофе — на початок">
+            <svg class="brand-mark" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <g transform="rotate(-35 32 32)">
+                <ellipse cx="32" cy="32" rx="13.5" ry="20.5" stroke="currentColor" stroke-width="2.6"/>
+                <path d="M32 12.5c6.5 8-6.5 31 0 39" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/>
+              </g>
+            </svg>
+            <span class="brand-name">Суть<small>coffee · dnipro</small></span>
+          </a>
+          <p>Кава, люди й Дніпро.<br>Щодня з 2019 року.</p>
+        </div>
+        <div>
+          <h3>Навігація</h3>
+          <ul>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#ritual">Ритуал</a></li>
+            <li><a href="#gallery">Атмосфера</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Контакти</h3>
+          <ul>
+            <li>вул. Старокозацька, 24</li>
+            <li>Дніпро, 49000</li>
+            <li><a href="tel:+380671234567">+380 67 123 45 67</a></li>
+            <li><a href="mailto:hello@sut.coffee">hello@sut.coffee</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Соцмережі</h3>
+          <ul>
+            <li><a href="https://www.instagram.com/sut.coffee/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://www.google.com/maps/search/?api=1&amp;query=%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%BA%D0%BE%D0%B7%D0%B0%D1%86%D1%8C%D0%BA%D0%B0+24+%D0%94%D0%BD%D1%96%D0%BF%D1%80%D0%BE" target="_blank" rel="noopener">Google Maps</a></li>
+            <li><a href="tel:+380671234567">Забронювати столик</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> Суть Кофе · Дніпро</span>
+        <span>Зроблено з любов’ю до кави</span>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Перегляд фотографії">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" type="button" aria-label="Закрити перегляд">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <img class="lightbox-img" src="" alt="">
+      <p class="lightbox-caption"></p>
+    </div>
+  </dialog>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
